@@ -1,0 +1,85 @@
+body {
+    text-align: center;
+    background-image: url('./img/background.jpg');
+}
+
+label {
+    display: block;
+}
+
+input,
+textarea {
+    width: 300px;
+}
+
+button#addNote {
+    display: block;
+    margin: 12px auto;
+}
+
+textarea {
+    height: 91px;
+}
+
+label {
+    font-size: 25px;
+    font-family: tahoma;
+    font-weight: 600;
+    margin: 5px;
+}
+
+.note {
+    background-image: url("./img/note.png");
+    height: 280px;
+    width: 280px;
+    box-sizing: border-box;
+    padding: 60px;
+    display: inline-block;
+    position: relative;
+}
+
+.group {
+    display: flex;
+    line-height: 28px;
+    align-items: center;
+    position: relative;
+    max-width: 190px;
+}
+
+.input {
+    width: 100%;
+    height: 40px;
+    line-height: 28px;
+    padding: 0 1rem;
+    padding-left: 2.5rem;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    outline: none;
+    background-color: #f3f3f4;
+    color: #0d0c22;
+    transition: .3s ease;
+}
+
+.input::placeholder {
+    color: #9e9ea7;
+}
+
+.input:focus,
+input:hover {
+    outline: none;
+    border-color: rgba(234, 76, 137, 0.4);
+    background-color: #fff;
+    box-shadow: 0 0 0 4px rgb(234 76 137 / 10%);
+}
+
+.icon {
+    position: absolute;
+    left: 1rem;
+    fill: #9e9ea7;
+    width: 1rem;
+    height: 1rem;
+}
+
+#text_area{
+    width: 90%;
+}
